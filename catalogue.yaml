@@ -64,7 +64,7 @@
     ansible.builtin.command: mongo --host mongodb.joinmydevops.online </app/schema/catalogue.js
 
   - name: restart catalogue
-    ansible.builtin.service
+    ansible.builtin.service:
       name: catalogue
       state: installed
       enabled: true
