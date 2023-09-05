@@ -6,4 +6,10 @@ web.joinmydevops.online
 
 [catalogue]
 catalogue.joinmydevops.online
+[redis]
 
+
+
+
+[cart]
+cart.joinmydevops.online
