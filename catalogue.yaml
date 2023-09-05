@@ -38,7 +38,7 @@
       dest: /home/centos/.ansible/tmp
   - name: extract catalogue artifact
     ansible.builtin.unarchive:
-      src: /tmp/catalogue.zip
+      src: /home/centos/.ansible/tmp/catalogue.zip
       path: /app  
       remote_src: yes
   - name: install dependencies
