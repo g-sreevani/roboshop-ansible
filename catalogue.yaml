@@ -21,7 +21,7 @@
   - name: check /app directory exist or not
     ansible.builtin.stat:
       path: /app
-      register: directory
+    register: directory
 
   - name: print the directory stats
     ansible.builtin.debug:
@@ -40,3 +40,4 @@
     ansible.builtin.unarchive:
       src: /tmp/catalogue.zip
       path: /app  
+      remote_src: yes
