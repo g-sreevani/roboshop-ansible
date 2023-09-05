@@ -6,7 +6,7 @@
     ansible.builtin.yum:
       name: nginx
       state: installed
-      enabled: yes
+      enabled: true
   - name: remove html directory
     ansible.builtin.file:
       path: /usr/share/nginx/html
