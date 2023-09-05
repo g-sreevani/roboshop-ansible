@@ -21,4 +21,4 @@
   - name: print the directory stats
     ansible.builtin.debug:
      msg: "output: {{directory}}"
-  - when: directory.stat.exists == false
+  - when: directory.stat.exists == False
