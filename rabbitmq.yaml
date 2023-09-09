@@ -1,0 +1,3 @@
+- name: installing rabbitmq component
+  hosts: rabbitmq
+  

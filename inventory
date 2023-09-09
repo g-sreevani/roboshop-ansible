@@ -9,6 +9,8 @@ catalogue.joinmydevops.online
 
 [redis]
 redis.joinmydevops.online
+[user]
+user.joinmydevops.online
 
 
 
