@@ -8,7 +8,7 @@
       state: installed
   - name: starting systemd 
     ansible.builtin.systemd:
-        name: apache2
+        name: web
         state: started
   - name: start & enable nginx
     ansible.builtin.service:
