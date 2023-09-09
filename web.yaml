@@ -6,9 +6,10 @@
     ansible.builtin.yum:
       name: nginx
       state: installed
-  - name: enabling demon reexec true
+  - name: starting systemd 
     ansible.builtin.systemd:
-      daemon_reexec: true
+        name: apache2
+        state: started
   - name: start & enable nginx
     ansible.builtin.service:
       name: nginx
